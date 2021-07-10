@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Momentum</title>
+    </head>
+
+    <body>
+        <div class="main-header">
+            <div class="main-header__column">
+                <span class="main-header__link">Links</span>
+                <form class="main-header__search-form">
+                    <i class="fas fa-search fa-sm"></i>
+                    <input type="text" />
+                    <span class="main-header__search-underline"></span>
+                    <i class="fab fa-google"></i>
+                    <i class="fas fa-chevron-down fa-xs"></i>
+                </form>
+            </div>
+            <div class="main-header__column">
+                <div class="main-header__metric-item">
+                    <i class="material-icons">add</i>
+                    <span>Add</span>
+                </div>
+                <div class="main-header__metric-item">
+                    <div class="main-header__metric-stat">
+                        <span class="main-header__weather-icon"><i class="material-icons">cloud_queue</i></span>
+                        <span class="main-header__metric-stat-number">27</span>
+                        <span class="main-header__metric-stat-degree">°</span>
+                    </div>
+                    <span class="main-header__metric-name">Bucheon-si</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-screen">
+            <div class="main-screen__column">
+                <i class="far fa-clock"></i>
+                <span class="main-screen__clock"></span>
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <div class="main-screen__column">
+                <span class="main-screen__message">Good evening,</span>
+                <span class="main-screen__name"></span>
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <div class="main-screen__column">
+                <div class="main-screen_focus-question">
+                    <span class="main-screen__question">What is your main focus for today?</span>
+                    <form class="answer-form">
+                        <input type="text" />
+                    </form>
+                </div>
+                <!-- <div class="main-screen__focus-content">
+                    <span class="main-screen__today">Today</span>
+                    <div class="main-screen__content">
+                        <i class="far fa-square"></i>
+                        <span class="main-screen__todo">fdf</span>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/3b3f0f16fa.js" crossorigin="anonymous"></script>
+        <script src="js/greeting.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/quotes.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
