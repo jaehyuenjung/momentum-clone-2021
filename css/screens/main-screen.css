@@ -83,7 +83,7 @@
 }
 
 .main-screen__column:last-child {
-    margin-top: 35px;
+    margin-top: 30px;
     color: var(--white-color);
 }
 
@@ -99,7 +99,7 @@
 
 .answer-form {
     width: 100%;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .answer-form input {

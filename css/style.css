@@ -3,6 +3,7 @@
 
 @import "screens/main-header.css";
 @import "screens/main-screen.css";
+@import "screens/main-footer.css";
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
