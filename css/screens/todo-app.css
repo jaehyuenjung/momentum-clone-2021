@@ -87,3 +87,9 @@
     background: none;
     overflow: hidden;
 }
+
+.check-box-line {
+    color: var(--gray-color);
+    text-decoration: line-through;
+    text-decoration-color: var(--gray-color);
+}
