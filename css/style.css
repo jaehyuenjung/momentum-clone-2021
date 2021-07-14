@@ -4,7 +4,12 @@
 @import "screens/main-header.css";
 @import "screens/main-screen.css";
 @import "screens/main-footer.css";
+@import "screens/todo-app.css";
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.hidden {
+    opacity: 0;
 }

@@ -1,0 +1,89 @@
+.todo-app__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 21px 0 21px;
+    height: 50px;
+}
+
+.todo-app__title {
+    font-size: 20px;
+}
+
+.todo-app__main {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.todo-app__todo-list {
+    min-height: 62px;
+    max-height: 410px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.todo-app__todo-list::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+}
+.todo-app__todo-list::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.todo-app__todo-list::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+    border: 3px solid transparent;
+    border-radius: 7px;
+}
+
+.todo-app__item {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+.todo-app__check-box-wrapper {
+    padding-left: 21px;
+    padding-right: 8px;
+}
+
+.todo-app__check-box {
+    width: auto;
+}
+
+.todo-app__content {
+    outline: 0;
+    word-wrap: break-word;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.todo-app__more {
+    padding-right: 21px;
+    opacity: 0;
+}
+
+.todo-app__item:hover .todo-app__more {
+    opacity: 1;
+}
+
+.todo-app__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+
+.todo-app__input {
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    padding: 7px 21px 18px 21px;
+    background: none;
+    overflow: hidden;
+}
