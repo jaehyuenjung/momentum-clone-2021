@@ -7,7 +7,7 @@
 .main-footer__column:first-child {
     display: flex;
     align-items: center;
-    color: var(--gray-color);
+    color: var(--light-gray-color);
 }
 
 .main-footer__column:first-child .fa-cog {
@@ -108,7 +108,7 @@
 .main-footer__below {
     position: absolute;
     bottom: 0;
-    color: var(--gray-color);
+    color: var(--light-gray-color);
     opacity: 0;
     transition: all 0.5s ease;
 }

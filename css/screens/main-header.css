@@ -20,7 +20,7 @@
 }
 
 .main-header__link {
-    color: var(--gray-color);
+    color: var(--light-gray-color);
     padding: 0 20px;
     font-size: 106.25%;
     font-weight: 500;
@@ -65,18 +65,18 @@
     left: 0;
     right: 0;
     z-index: 1;
-    border-bottom: 2px solid var(--gray-color);
+    border-bottom: 2px solid var(--light-gray-color);
     opacity: 0;
 }
 
 .main-header__search-form i {
-    color: var(--gray-color);
+    color: var(--light-gray-color);
     position: absolute;
 }
 
 .main-header__search-form .fa-search {
     left: 0;
-    color: var(--gray-color);
+    color: var(--light-gray-color);
     opacity: 0.5;
 }
 

@@ -1,6 +1,6 @@
 const todoControl = document.querySelector(".main-footer__todo-control");
 const appWrapper = document.querySelector(".main-footer__app-wrapper");
-const input = document.querySelector(".todo-app__input");
+const todoInput = document.querySelector(".todo-app__input");
 const todoList = document.querySelector(".todo-app__todo-list");
 
 const CLASS_NAME_CONTENT = "todo-app__content";
@@ -19,7 +19,7 @@ function saveState() {
 
 function deleteToDo(event) {
     const li = event.target.parentElement;
-    toDos = toDos.filter(todo => todo.id != li.id);
+    toDos = toDos.filter((todo) => todo.id != li.id);
     li.remove();
     saveToDos();
 }
@@ -83,7 +83,7 @@ function createTodoEle() {
 }
 
 function handleToDoInput(event) {
-    const newTodo = input.value;
+    const newTodo = todoInput.value;
     if (newTodo !== "" && event.code === "Enter") {
         const newTodoObj = {
             text: newTodo,
@@ -96,7 +96,7 @@ function handleToDoInput(event) {
 
         paintToDo(newTodoObj);
 
-        input.value = "";
+        todoInput.value = "";
     }
 }
 
@@ -105,7 +105,7 @@ function handleCheckBoxClick(event) {
     const content = li.querySelector(`.${CLASS_NAME_CONTENT}`);
     const checkBox = li.querySelector(`.${CLASS_NAME_CHECKBOX}`);
 
-    const todoObj = toDos.find(e => e.id === parseInt(li.id));
+    const todoObj = toDos.find((e) => e.id === parseInt(li.id));
     todoObj.isChecked = checkBox.checked;
     content.classList.toggle("check-box-line");
 
@@ -130,4 +130,4 @@ if (savedToDos) {
 }
 
 todoControl.addEventListener("click", handleTodoControlClick);
-input.addEventListener("keypress", handleToDoInput);
+todoInput.addEventListener("keypress", handleToDoInput);

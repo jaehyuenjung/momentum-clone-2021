@@ -1,5 +1,6 @@
 :root {
     --width: 240px;
+    --light-gray-color: rgba(255, 255, 255, 0.85);
     --gray-color: rgba(0, 0, 0, 0.3);
     --white-color: rgba(255, 255, 255, 1);
 }
